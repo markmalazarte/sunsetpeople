@@ -15,6 +15,16 @@
 	color: #fff;
 	width: 75%;
 }
+.featured_logo {
+	max-height: 30px;
+	max-width: 400px;
+	display: block;
+	transition: all ease-in-out .35s;
+}
+a .featured_logo:hover {
+	opacity:0.6;
+	transition: all ease-in-out .35s;
+}
 a.vlt-portfolio-item-overlay .vlt-fit-image {
 	background-image: url('../../gradient.png');
 	width: 100%;
